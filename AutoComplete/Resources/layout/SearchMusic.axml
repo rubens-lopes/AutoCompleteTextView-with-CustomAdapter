@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="true"
+    android:background="#fffbbb"
+    android:padding="16dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/autoComplete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Music name or artist" />
+    </android.support.design.widget.TextInputLayout>
+</android.support.v4.widget.NestedScrollView>
